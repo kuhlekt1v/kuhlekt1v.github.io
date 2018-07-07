@@ -1,0 +1,82 @@
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+/*Link style configuration*/
+a {
+	color: #989898;
+}
+
+a:hover {
+	color: #92cb9d;
+	text-decoration: none;
+}
+
+#siteTitle {
+	max-width: 510px;
+	height: 110px;
+	margin:auto;
+}
+
+img {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%)
+}
+
+h3 {
+	color: 	#989898;
+	font-family: 'Teko', sans-serif; 
+	text-align: center;
+	font-size: 4.0em;
+	padding-top: 10px;
+	margin: 0 0 -10px 0;
+}
+
+h3:hover {
+	text-decoration: none;
+	color: #92cb9d;
+	cursor: pointer;
+}
+
+p {
+	color: 	#989898;
+	font-family: 'Teko', sans-serif; 
+	text-align: center;
+	font-size: 1.0em;
+}
+
+/*Site navigation*/
+#navBar {
+	max-width: 510px;
+	height: 110px;
+	margin:auto;
+	color: #989898;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: 600;
+	font-size: 2.0em;
+	padding-top: 20px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 20px;
+	margin: auto;
+}
+
+/*X to close site navigation*/
+.closeBtn{
+	color: #ccc;
+	font-size: 30px;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+	color: #92cb9d;
+	text-decoration: none;
+	cursor: pointer;
+}
