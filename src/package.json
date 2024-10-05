@@ -1,27 +1,34 @@
 {
   "name": "devfolio",
   "version": "1.5.0",
-  "description": "A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.",
+  "description": "A simple, responsive portfolio and resume based on Mark Macneil's devfolio.",
   "main": "webpack.config.js",
-  "repository": "https://github.com/mmacneil/devfolio",
-  "author": "Mark Macneil",
+  "repository": "https://github.com/kuhlekt1v/kuhlekt1v.github.io",
+  "author": "Cody Sheridan",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "bulma": "^0.9.3",
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "bulma": "^0.9.4",
+    "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.3.0",
     "css-minimizer-webpack-plugin": "^3.0.2",
+    "gh-pages": "^6.1.1",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.3.0",
-    "node-sass": "^7.0.0",
+    "sass": "^1.79.4",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.3.0",
-    "webpack": "^5.76.0",
-    "webpack-cli": "^4.8.0"
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   },
-  "dependencies": {
-    "flickity": "^2.2.2",
-    "flickity-imagesloaded": "^2.0.0"
-  }
+  "homepage": "https://kuhlekt1v.github.io/"
 }
